@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <title>PernStack-Landing-Page-Responsive</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="primary-nav container">
+                <img class="primary-nav__logo" src="./assets/images/Logo.svg"
+                    alt="logo">
+                <ul class="primary-nav__list">
+                    <li class="primary-nav__item">
+                        <a href="#" class="primary-nav__link">Home</a>
+                    </li>
+                    <li class="primary-nav__item">
+                        <a href="#" class="primary-nav__link">About Us</a>
+                    </li>
+                    <li class="primary-nav__item">
+                        <a href="#" class="primary-nav__link">Pricing</a>
+                    </li>
+                    <li class="primary-nav__item">
+                        <a href="#" class="primary-nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="primary-nav__action">
+                    <button class="btn btn--login">Log in</button>
+                    <button class="btn">Sign up</button>
+                </div>
+                <div class="primary-nav__mobile-icon">
+                    <span class="primary-nav__mobile-icon-bar"></span>
+                </div>
+            </nav>
+        </header>
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero__content container">
+                <div class="hero__typography">
+                    <h1 class="hero__title">Empowering Web Developers: Master
+                        the PERN Stack</h1>
+                    <p class="hero__description">Build Dynamic Websites with
+                        PernStack - The Comprehensive Course for Modern Web
+                        Developers</p>
+                </div>
+                <div class="hero__action">
+                    <button class="btn btn--secondary btn--large">Showcase</button>
+                    <button class="btn btn--large">Chat to us</button>
+                </div>
+            </div>
+            <picture class="hero__img container">
+                <source media="(min-width: 450px)"
+                    srcset="assets/images/geomatric__img-sm.svg" />
+                <source media="(max-width: 451px)"
+                    srcset="assets/images/geomatric__img.svg" />
+                <img src="assets/images/geomatric__img.svg" alt />
+            </picture>
+        </section>
+        <!-- About section -->
+        <section class="about">
+            <div class="about__container container">
+                <div class="about__content">
+                    <h2 class="about__heading">Elevate Your Web Development
+                        Skills to New Heights</h2>
+                    <div class="about__description">
+                        <p class="about__paragraph">Welcome to PernStack, the
+                            ultimate web development course designed to equip
+                            you with the knowledge and skills needed to create
+                            dynamic, robust, and cutting-edge websites. Whether
+                            you're an aspiring developer or a seasoned
+                            professional looking to stay ahead in the
+                            ever-evolving world of web development, PernStack
+                            has you covered. </p>
+                        <p class="about__paragraph">In this comprehensive
+                            course, you'll dive deep into the powerful
+                            combination of the PERN (PostgreSQL,
+                            Express.js, React, Node.js) stack, which forms the
+                            backbone of countless successful web applications.
+                            With hands-on projects, real-world examples, and
+                            expert guidance, you'll gain the confidence to build
+                            feature-rich, scalable, and responsive web
+                            applications that will impress clients and employers
+                            alike.</p>
+                    </div>
+                </div>
+                <img src="assets/images/about.png" class="about__img"
+                    alt="about_image">
+            </div>
+        </section>
+        <div class="container">
+            <hr class="section__divider">
+        </div>
+        <!-- pricing section-->
+        <section class="pricing">
+            <div class="pricing__typography container">
+                <h2 class="pricing__title">Simple, transparent pricing</h2>
+                <p class="pricing__description">Your journey to PERN expertise
+                    starts here.</p>
+            </div>
+            <div class="pricing__contant container">
+                <div class="pricing__card">
+                    <div class="pricing__card-header">
+                        <h3 class="pricing__card-heading">Web Developer Freshman</h3>
+                        <strong class="pricing__card-price">$10/mth</strong>
+                        <span class="pricing__card-text">Billed annually.</span>
+                    </div>
+                    <div class="pricing__card-content">
+                        <ul class="pricing__card-list">
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Access to all course
+                                    materials</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">One project assignment</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Email support</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Cross icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Q&A webinars</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Cross icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">One-on-one feedback</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing__card-footer">
+                        <button class="btn btn--pricing">Get started</button>
+                    </div>
+                </div>
+                <div class="pricing__card">
+                    <div class="pricing__card-header">
+                        <h3 class="pricing__card-heading">Web Developer Freshman</h3>
+                        <strong class="pricing__card-price">$10/mth</strong>
+                        <span class="pricing__card-text">Billed annually.</span>
+                    </div>
+                    <div class="pricing__card-content">
+                        <ul class="pricing__card-list">
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Access to all course
+                                    materials</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Three project assignment</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Email support</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Q&A webinars</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Cross icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">One-on-one feedback</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing__card-footer">
+                        <button class="btn btn--pricing">Get started</button>
+                    </div>
+                </div>
+                <div class="pricing__card">
+                    <div class="pricing__card-header">
+                        <h3 class="pricing__card-heading">Web Developer Freshman</h3>
+                        <strong class="pricing__card-price">$10/mth</strong>
+                        <span class="pricing__card-text">Billed annually.</span>
+                    </div>
+                    <div class="pricing__card-content">
+                        <ul class="pricing__card-list">
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Access to all course
+                                    materials</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Six project assignment</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Priority email support</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">Q&A webinars</span>
+                            </li>
+                            <li class="list__item">
+                                <img src="assets/images/Check icon.svg"
+                                    class="list__icon"
+                                    alt="check mark">
+                                <span class="list_name">One-on-one feedback</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing__card-footer">
+                        <button class="btn btn--pricing">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <hr class="section__divider">
+        </div>
+        <!-- Metrics section -->
+        <section class="metrics">
+            <div class="metrics__typography container">
+                <h2 class="metrics__title">Empowering Developers from Day One</h2>
+                <p class="metrics__description">Why PernStack is the Preferred
+                    Choice</p>
+            </div>
+            <div class="metrics__container container">
+                <div class="metrics__container-left">
+                    <div class="metrics__content">
+                        <div class="metrics__content-item">
+                            <strong class="metrics__content-number">10k+</strong>
+                            <h3 class="metrics__content-title">Students enrolled</h3>
+                            <p class="metrics__content-description">Over 8k+
+                                students have successfully completed the
+                                PernStack course.</p>
+                        </div>
+                        <div class="metrics__content-item">
+                            <strong class="metrics__content-number">500+</strong>
+                            <h3 class="metrics__content-title">Real World
+                                Projects</h3>
+                            <p class="metrics__content-description">Graduates
+                                have built over 500 real-world web applications
+                                using PernStack.</p>
+                        </div>
+                        <div class="metrics__content-item">
+                            <strong class="metrics__content-number">95%</strong>
+                            <h3 class="metrics__content-title">Alumni are now
+                                employed</h3>
+                            <p class="metrics__content-description">95% of
+                                PernStack alumni landed new job opportunities
+                                after completing the course.</p>
+                        </div>
+                        <div class="metrics__content-item">
+                            <strong class="metrics__content-number">5k+</strong>
+                            <h3 class="metrics__content-title">5-star reviews</h3>
+                            <p class="metrics__content-description">We’re proud
+                                of our 5-star rating with over 5k reviews.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="metrics__container-right">
+                    <img src="assets/images/matrics_Image.png" alt>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact">
+            <div class="contact__container container">
+                <div class="contact__container-left">
+                    <h2 class="contact__title">Chat to our friendly team</h2>
+                    <p class="contact__description">We’d love to hear from you!
+                        Please get in touch.</p>
+                </div>
+                <div class="contact__container-right">
+                    <div class="contact__content-item">
+                        <div class="contact__item-icon">
+                            <img src="assets/images/message-chat-circle.svg"
+                                alt>
+                        </div>
+                        <div class="contact__item-typograpy">
+                            <h3 class="contact__item-title">IIUC Campus</h3>
+                            <p class="contact__item-address">CX Building,
+                                IIUC Male Campus, Kumira</p>
+                        </div>
+                    </div>
+                    <div class="contact__content-item">
+                        <div class="contact__item-icon">
+                            <img src="assets/images/message-chat-circle.svg"
+                                alt>
+                        </div>
+                        <div class="contact__item-typograpy">
+                            <h3 class="contact__item-title">Kashbon</h3>
+                            <p class="contact__item-address">Kashbon restaurant,
+                                IIUC Gate, Kumira</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <section class="footer">
+            <div class="footer__container-top container">
+                <div class="footer__logo">
+                    <img src="assets/images/footer_Logo.png" alt="footer-logo">
+                </div>
+                <div class="footer-link">
+                    <ul class="footer-link__list">
+                        <li class="footer-link__item">Home</li>
+                        <li class="footer-link__item">About</li>
+                        <li class="footer-link__item">Pricing</li>
+                        <li class="footer-link__item">Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container-bottom container">
+                <div class="footer__text">
+                    <p>© 2023 IMP PernStack. All rights reserved.</p>
+                </div>
+                <div class="footer__bottom-link">
+                    <ul class="bottom__link-list">
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                        <li>Cookies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
