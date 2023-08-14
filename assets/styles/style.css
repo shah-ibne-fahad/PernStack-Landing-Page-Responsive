@@ -35,9 +35,8 @@ body {
     color: var(--color-text);
 }
 
-header,
-.hero {
-    background: url(../images/Background-pattern.png) no-repeat center;
+header, .hero {
+    background: url(/./assets/images/Background-pattern.png) no-repeat center;
 }
 
 .container {
